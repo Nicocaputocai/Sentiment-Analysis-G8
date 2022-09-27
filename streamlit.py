@@ -17,10 +17,10 @@ stopwords_es.append('q')
 stopwords_es.append('si')
 
 #Claves de Twitter API
-consumer_key = 'value'
-consumer_secret = 'value'
-access_token = 'value'
-access_token_secret = 'value'
+consumer_key = 'zzwlGyc7P6MKsv4vZIp4aTalm'
+consumer_secret = 'Ru6CcRIpMFu0Qm6M6yyS2ynZXAbQGveTbbqxppoR7Sd2z5Fk3H'
+access_token = '501467554-qeed6CL53n7XG9g3FQFTSN0YpzQ7c5s6mx4cAOg1'
+access_token_secret = 'ioNkHzsS1sKSruVDcbrsjDy5rQKpixR9gM0nhtPR7erqQ'
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tw.API(auth, wait_on_rate_limit=True)
